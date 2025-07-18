@@ -1,0 +1,11 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "ThunderZ Hub",
+    Text = "Attention: If the ThunderZ ui didn't show up please use VPN",
+    Duration = 4
+})
+
+
+wait(4)
+
+
+loadstring(game:HttpGet("https://pastefy.app/OvnOR0Ee/raw"))()
